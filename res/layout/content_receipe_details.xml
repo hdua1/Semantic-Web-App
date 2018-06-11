@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.recipewelldone.ReceipeDetailsActivity"
+    tools:showIn="@layout/activity_receipe_details">
+
+    <!---->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="7dp">
+
+        <TextView
+            android:id="@+id/cookingTimeTV"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cooking Time - 10 mins"/>
+        <TextView
+            android:id="@+id/isRatedAsTV"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ratings - 4.0 "/>
+        <TextView
+            android:id="@+id/belongsToCourseTV"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cuisine Type - Italian"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Ingredients "
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/ingredientTV"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Instructions"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/instructionsTV"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="In a small saucepan add pasta and milk. Bring to simmer, then reduce heat to low and cook for 20 to 25 minutes, until pasta is soft, stirring frequently and ensuring milk does not boil. Turn heat off, add cheese and salt and and stir to combine. Stir in the mustard or nutmeg and cayenne a little at a time, to taste. Cover and let stand for a couple of minutes, then stir again and serve. If not creamy enough, add milk a little at a time, and gently stir. If you would like to bake it at this point, place in a baking dish and top with a generous sprinkling of cheese. Bake at 375 degrees for approximately 10 minutes until cheese has melted. As a side dish this makes enough for 4 people with no leftovers (can easily be doubled). "/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Restaurant With Similar Recipes"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/restuarantTV"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No Restaurant Found"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nutrients"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/nutrientsTV"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""/>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

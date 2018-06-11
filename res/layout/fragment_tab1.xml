@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.recipewelldone.Tab1"
+    android:background="@color/colorPrimary">
+
+   <!--<ListView-->
+       <!--android:layout_width="match_parent"-->
+       <!--android:layout_height="match_parent"-->
+       <!--android:id="@+id/list1">-->
+   <!--</ListView>-->
+    <GridView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/grid1"
+        android:columnWidth="150dip"
+        android:gravity="center"
+        android:numColumns="2"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="5dip">
+    </GridView>
+</RelativeLayout>
